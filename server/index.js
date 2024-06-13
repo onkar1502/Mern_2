@@ -6,9 +6,8 @@ const RegisterModel = require('./models/Register')
 const app = express()
 app.use(cors(
     {
-        origin:"https://frontend-ruddy-gamma.vercel.app/",
-        methods: ["POST", "GET"],
-        credentials: true
+        origin:"https://frontend-ruddy-gamma.vercel.app",
+        
     }
 ));
 app.use(express.json())
